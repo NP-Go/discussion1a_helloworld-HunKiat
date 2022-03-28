@@ -6,8 +6,8 @@ import (
 
 func TestHelloWorld(t *testing.T) {
 	got := HelloWorld()
-	res := "Hello World from Go !!"
-	if got != "Hello World from Go !!" {
+	res := "Hello World from Go!"
+	if got != "Hello World from Go!" {
 		t.Errorf("HelloWorld() = %s; want %s", got, res)
 	}
 
